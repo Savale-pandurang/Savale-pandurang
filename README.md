@@ -1,116 +1,255 @@
-<![CDATA[<div align="center">
+<div align="center">
 
-# Pandurang Savale
+<!-- Dynamic Typing SVG -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Hi+%F0%9F%91%8B+I'm+Pandurang+Savale;Data+Science+%7C+Machine+Learning+%7C+Computer+Vision" alt="Typing SVG" /></a>
 
-**Machine Learning Engineer · Data Scientist · Computer Vision Enthusiast**
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pandurang-savale/)
+**🔬 Research Intern @ IIT Madras (HTIC) · Building AI for Healthcare**
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pandurang-s-73596329a/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Savale-pandurang)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/Savale-pandurang)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pandusavale04@gmail.com)
+[![Phone](https://img.shields.io/badge/📞_+91_9611573977-25D366?style=for-the-badge)](tel:+919611573977)
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Savale-pandurang&color=3B82F6&style=flat-square&label=Profile+Views" alt="Profile Views" />
 
 </div>
 
----
+<br/>
 
-### 👋 About Me
+<!-- ═══════════════════════════════════════════════════════ -->
 
-I'm a passionate **Machine Learning Engineer** and **Data Scientist** with hands-on experience in building end-to-end AI solutions — from computer vision systems and medical imaging pipelines to personalized AI assistants. I enjoy turning complex data into actionable insights and deploying scalable, production-ready models.
+## 🧑‍💼 About Me
 
-- 🔬 Specializing in **Computer Vision**, **Medical AI**, and **Deep Learning**
-- 🧠 Building intelligent systems with **LLMs**, **CNNs**, and **classical ML**
-- 🚀 Experience with full-stack AI products — research to deployment
-- 📊 Strong foundation in **data preprocessing**, **feature engineering**, and **model optimization**
+> Aspiring Data Scientist with a strong foundation in **Machine Learning**, **Python**, and **web development**. Currently working as a **Research Intern at IIT Madras (HTIC)**, building AI-powered healthcare systems and medical imaging pipelines. Passionate about turning complex data into actionable insights and deploying scalable, production-ready models.
 
----
+```yaml
+🎓 Education   : B.E. Computer Science — AMC Engineering College (GPA: 8.5)
+🔬 Current Role : Computer Vision Intern @ IIT Madras HTIC MedTech Incubator
+🧠 Focus Areas  : Deep Learning · Medical AI · Computer Vision · NLP
+🌍 Location     : Karnataka, India
+📫 Contact      : pandusavale04@gmail.com
+```
 
-## 🔬 Machine Learning & Data Science Projects
+<br/>
 
-> These are my core ML/DS repositories — highlighted for quick reference.
+<!-- ═══════════════════════════════════════════════════════ -->
 
-| Project | Description | Stack |
-|:--------|:------------|:------|
-| [**mediconnect-ai**](https://github.com/Savale-pandurang/mediconnect-ai) | AI-powered medical connectivity platform | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![AI](https://img.shields.io/badge/-AI-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) |
+## 💼 Professional Experience
+
+<table>
+<tr>
+<td width="100" align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/6/69/IIT_Madras_Logo.svg" width="60" alt="IIT Madras"/>
+  <br/><sub><b>IIT Madras</b></sub>
+</td>
+<td>
+
+### Computer Vision Intern
+**IIT Madras HTIC MedTech Incubator** · *Jan 2026 – Present*
+- Working on **Computer Vision** projects in healthcare and medical technology domain
+- Applying deep learning techniques for **medical image analysis** and clinical diagnostics
+
+</td>
+</tr>
+<tr>
+<td width="100" align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/6/69/IIT_Madras_Logo.svg" width="60" alt="IIT Madras"/>
+  <br/><sub><b>HTIC</b></sub>
+</td>
+<td>
+
+### Research Intern
+**Healthcare Technology Innovation Centre (HTIC), IIT Madras** · *Feb 2026 – Present*
+- Developing **AI and ML solutions** for healthcare, addressing real-world clinical challenges
+- Designing and evaluating **ML models for medical data analysis** — preprocessing, feature extraction, optimization
+- Collaborating with interdisciplinary teams on **AI-powered clinical decision-support systems**
+
+</td>
+</tr>
+<tr>
+<td width="100" align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/6/69/IIT_Madras_Logo.svg" width="60" alt="IIT Madras"/>
+  <br/><sub><b>HTIC</b></sub>
+</td>
+<td>
+
+### Project Intern — Imaging Team
+**Healthcare Technology Innovation Centre (HTIC), IIT Madras**
+- Contributed to the **Imaging Team** working on medical technology innovations
+- Assisted in R&D of imaging-based healthcare solutions
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔄 [Automatic Data Preprocessing Pipeline](https://github.com/Savale-pandurang/Automatic-Data-Preprocessing-Pipeline)
+> *Jul – Aug 2025*
+
+Automated pipeline for **data cleaning**, handling missing values, encoding categorical features, and scaling numerical data. Designed for reusability across datasets.
+
+`Python` `Pandas` `NumPy` `Scikit-learn`
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [Personalized AI Assistant using LLM](https://github.com/Savale-pandurang/Personalized-AI-Assistant-using-LLM)
+> *May – Jun 2025*
+
+Conversational AI assistant using **Large Language Models** with voice I/O, web browsing, and task automation. Integrated APIs for search and data retrieval.
+
+`Python` `LLM` `APIs` `NLP`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 👗 [Smart Fashion Recommendation Engine](https://github.com/Savale-pandurang/fashion-recommendation)
+> *Apr – May 2025*
+
+ML-based recommendation system extracting visual features from **44,000+ fashion products** using scalable image-matching and efficient similarity search.
+
+`Python` `TensorFlow` `NumPy` `Seaborn`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏥 [MediConnect AI](https://github.com/Savale-pandurang/mediconnect-ai)
+AI-powered **medical connectivity platform** bridging healthcare providers with intelligent diagnostics and patient management.
+
+`TypeScript` `AI/ML` `Healthcare`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+
+## 📂 More Projects
+
+| Project | Description | Tech |
+|:--------|:------------|:-----|
 | [**Computer_Vision**](https://github.com/Savale-pandurang/Computer_Vision) | Computer Vision projects and experiments | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
 | [**Imaging_Science**](https://github.com/Savale-pandurang/Imaging_Science) | Imaging science research and implementations | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [**Personalized-AI-Assistant-using-LLM**](https://github.com/Savale-pandurang/Personalized-AI-Assistant-using-LLM) | Personalized AI assistant powered by Large Language Models | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LLM](https://img.shields.io/badge/-LLM-412991?style=flat-square&logo=openai&logoColor=white) |
 | [**Live-Facial-Recognition-System**](https://github.com/Savale-pandurang/Live-Facial-Recognition-System) | Real-time facial recognition using deep learning | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![DL](https://img.shields.io/badge/-Deep%20Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) |
-| [**Automatic-Data-Preprocessing-Pipeline**](https://github.com/Savale-pandurang/Automatic-Data-Preprocessing-Pipeline) | Automated data preprocessing and cleaning pipeline | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
 | [**multilingual_transliteration**](https://github.com/Savale-pandurang/multilingual_transliteration) | Multilingual text transliteration system | ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![NLP](https://img.shields.io/badge/-NLP-4B8BBE?style=flat-square) |
-| [**fashion-recommendation**](https://github.com/Savale-pandurang/fashion-recommendation) | ML-powered fashion recommendation engine | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![ML](https://img.shields.io/badge/-ML-FF6F00?style=flat-square&logo=scikit-learn&logoColor=white) |
-| [**Colossus2.0_Innovators**](https://github.com/Savale-pandurang/Colossus2.0_Innovators) | Energize 2.0 — AC-DC Hybrid leap for EV Evolution | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | [**VisionAstra**](https://github.com/Savale-pandurang/VisionAstra) | Vision-based AI application | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| [**Colossus2.0_Innovators**](https://github.com/Savale-pandurang/Colossus2.0_Innovators) | Energize 2.0 — AC-DC Hybrid leap for EV Evolution | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
----
+<br/>
 
-## � Other Notable Projects
+<!-- ═══════════════════════════════════════════════════════ -->
 
-| Project | Description | Stack |
-|:--------|:------------|:------|
-| [**brewnest-caf-showcase**](https://github.com/Savale-pandurang/brewnest-caf-showcas) | Café showcase web application | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [**iThink2025**](https://github.com/Savale-pandurang/iThink2025) | Web project | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| [**TrackMyCampus**](https://github.com/Savale-pandurang/TrackMyCampus) | Campus tracking application | ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
-| [**my-docker-repo**](https://github.com/Savale-pandurang/my-docker-repo) | Docker containerization projects | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| [**Hire-EV-Talen**](https://github.com/Savale-pandurang/Hire-EV-Talen) | EV talent hiring platform | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
-
----
-
-## �️ Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**ML / AI**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-**Tools & Platforms**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+| Category | Technologies |
+|:---------|:-------------|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white) |
+| **ML / AI** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) |
+| **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) |
+| **Tools** | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white) |
+| **Concepts** | ![Computer Vision](https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge) ![NLP](https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge) ![Feature Engineering](https://img.shields.io/badge/Feature_Eng.-2196F3?style=for-the-badge) ![Model Evaluation](https://img.shields.io/badge/Model_Eval.-9C27B0?style=for-the-badge) ![Statistics](https://img.shields.io/badge/Statistics-FF5722?style=for-the-badge) |
 
 </div>
 
----
+<br/>
 
-## � GitHub Stats
+<!-- ═══════════════════════════════════════════════════════ -->
+
+## 🎓 Education
+
+<table>
+<tr>
+<td width="80" align="center">🎓</td>
+<td>
+<strong>Bachelor of Engineering (B.E.) in Computer Science</strong>
+<br/>AMC Engineering College, Karnataka, India
+<br/>📅 2022 – 2026 (Pursuing) &nbsp;&nbsp; | &nbsp;&nbsp; 📊 <strong>GPA: 8.5</strong>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+
+## 🏆 Achievements & Certifications
+
+<table>
+<tr><td>🥈</td><td><strong>2nd Place</strong> — Techkrithi 2024, Vemana Institute of Technology (Dec 2024)</td></tr>
+<tr><td>🤝</td><td>Volunteered at <strong>HackZion v1.0 (AMCEC)</strong> — organized and managed tech events</td></tr>
+<tr><td>📜</td><td>Certified in <strong>Machine Learning</strong> — NPTEL (Jan – Apr 2025)</td></tr>
+<tr><td>📜</td><td>Certified in <strong>Data Analytics Job Simulation</strong> — Deloitte Australia via Forage (May 2025)</td></tr>
+<tr><td>🤖</td><td>Certified in <strong>Robotic Process Automation (RPA)</strong> — Youth Empowerment Program (Rockwell Automation / ICT Academy) — <strong>Grade A</strong></td></tr>
+<tr><td>☁️</td><td>Certified in <strong>Cloud Computing & Networking</strong> — JNCAA</td></tr>
+<tr><td>☁️</td><td>Completed <strong>Cloud Virtual Internship</strong> — AWS Academy</td></tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Savale-pandurang&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Savale-pandurang&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" height="170" />
+<a href="https://github.com/Savale-pandurang">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Savale-pandurang&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF" alt="GitHub Stats" />
+</a>
+&nbsp;
+<a href="https://github.com/Savale-pandurang">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Savale-pandurang&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Savale-pandurang&theme=github-dark-blue&hide_border=true" alt="GitHub Streak" />
+<a href="https://github.com/Savale-pandurang">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Savale-pandurang&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" />
+</a>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Savale-pandurang&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FFFFFF" alt="Contribution Graph" width="95%"/>
 
 </div>
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-**💡 Open to collaborations in ML, Computer Vision, and AI for Healthcare.**
+---
+
+### 🤝 Let's Connect!
+
+**💡 Open to collaborations in ML, Computer Vision, and AI for Healthcare**
 
 *If you find my work interesting, feel free to ⭐ the repositories!*
 
-![Profile Views](https://komarev.com/ghpvc/?username=Savale-pandurang&color=blue&style=flat-square&label=Profile+Views)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pandurang-s-73596329a/)
+[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pandusavale04@gmail.com)
 
 </div>
-]]>
