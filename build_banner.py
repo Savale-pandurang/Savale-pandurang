@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
 Banner Generator for GitHub Profile
-Generates theme-aware dark.svg and light.svg with:
+Generates theme-aware dark.svg and light.svg from user photo with:
 - Terminal window chrome (1180x610)
-- Left panel: Animated dot-matrix portrait (VISUAL.MAP)
+- Left panel: High-density SMIL animated dot-matrix portrait from user's photo (VISUAL.MAP)
 - Right panel: SYSTEM.INFO readout with animated text, dotted leaders, and glowing badges
-- Supports custom photo input or fallback high-density developer dot-art matrix
 """
 
 import sys
@@ -14,7 +13,6 @@ import math
 import random
 from PIL import Image, ImageEnhance, ImageOps, ImageFilter
 
-# Palette definitions matching arifhaxn theme
 THEMES = {
     "dark": {
         "BG_OUTER": "#070B16",
@@ -53,109 +51,72 @@ THEMES = {
         "MUTED": "#475569",
         "DIM": "#94A3B8",
         "LEADER": "rgba(100,116,139,0.35)",
-        "DOT_COLOR": "#6D28D9",
+        "DOT_COLOR": "#7C3AED",
         "BOX_BG": "#FFFFFF",
         "BOX_STROKE": "rgba(8,145,178,0.35)",
         "GLOW_COLOR": "#0891B2",
     }
 }
 
-def generate_dots_from_image(image_path, target_w=300, target_h=340):
-    """Processes an image into a dithered grid of dot coordinates."""
-    try:
-        img = Image.open(image_path).convert("L")
-        img = ImageOps.fit(img, (target_w, target_h), Image.Resampling.LANCZOS)
-        enhancer = ImageEnhance.Contrast(img)
-        img = enhancer.enhance(1.4)
-        
-        # Floyd-Steinberg dither
-        dithered = img.convert("1", dither=Image.Dither.FLOYDSTEINBERG)
-        dots = []
-        for y in range(target_h):
-            for x in range(target_w):
-                if dithered.getpixel((x, y)) == 0:  # Dark dot
-                    dots.append((x, y))
-        return dots
-    except Exception as e:
-        print(f"Warning: Could not process image {image_path}: {e}")
+def process_photo(image_path, mode="dark", target_w=300, target_h=340):
+    """Processes photo into dot-matrix coordinates tuned for dark or light mode."""
+    if not os.path.exists(image_path):
         return None
 
-def generate_procedural_portrait(target_w=300, target_h=340):
-    """Generates a procedural high-density developer particle silhouette."""
-    random.seed(42)
+    img = Image.open(image_path).convert("RGB")
+    w, h = img.size
+
+    # Head and shoulders framing crop
+    crop_h = h
+    crop_w = int(crop_h * (target_w / target_h))
+    if crop_w > w:
+        crop_w = w
+        crop_h = int(crop_w * (target_h / target_w))
+    
+    left = (w - crop_w) // 2
+    top = int((h - crop_h) * 0.1)  # Focus slightly higher for head
+    right = left + crop_w
+    bottom = top + crop_h
+    
+    cropped = img.crop((left, top, right, bottom))
+    gray = cropped.convert("L")
+    
+    # Contrast & Sharpness tuning
+    gray = ImageOps.autocontrast(gray, cutoff=1)
+    enhancer = ImageEnhance.Contrast(gray)
+    gray = enhancer.enhance(1.45)
+    gray = gray.filter(ImageFilter.UnsharpMask(radius=3, percent=140))
+    gray = gray.resize((target_w, target_h), Image.Resampling.LANCZOS)
+    
+    dithered = gray.convert("1", dither=Image.Dither.FLOYDSTEINBERG)
+    
     dots = []
-    
-    cx, cy = target_w / 2, 110
-    head_rx, head_ry = 55, 70
-    
-    # Head and Face Contour
-    for y in range(20, 200):
-        for x in range(50, 250):
-            dx = (x - cx) / head_rx
-            dy = (y - cy) / head_ry
-            dist = dx*dx + dy*dy
-            
-            # Hair top
-            if y < 100 and dist <= 1.2:
-                density = 0.85 - (y/200)*0.3
-                if random.random() < density:
+    for y in range(target_h):
+        for x in range(target_w):
+            val = dithered.getpixel((x, y))
+            if mode == "dark":
+                # Dark mode: lit pixels & contours
+                if val != 0:
                     dots.append((x, y))
-            # Face & Jaw structure
-            elif dist <= 1.0:
-                # Facial features (eyes, nose, mouth area variations)
-                is_eye = (85 <= y <= 98) and ((cx-32 <= x <= cx-10) or (cx+10 <= x <= cx+32))
-                is_mouth = (135 <= y <= 145) and (cx-20 <= x <= cx+20)
-                is_glasses = (80 <= y <= 102) and (cx-42 <= x <= cx+42)
-                
-                if is_glasses:
-                    density = 0.95
-                elif is_eye:
-                    density = 0.2
-                elif is_mouth:
-                    density = 0.3
-                else:
-                    density = 0.55 * (1 - dist*0.4)
-                
-                if random.random() < density:
+            else:
+                # Light mode: shadow pixels & details
+                if val == 0:
                     dots.append((x, y))
 
-    # Neck
-    for y in range(170, 210):
-        for x in range(int(cx-22), int(cx+22)):
-            if random.random() < 0.6:
-                dots.append((x, y))
-
-    # Shoulders and Torso (Suit / Hoodie)
-    for y in range(200, target_h):
-        progress = (y - 200) / (target_h - 200)
-        shoulder_w = 75 + progress * 85
-        for x in range(int(cx - shoulder_w), int(cx + shoulder_w)):
-            dx = abs(x - cx) / shoulder_w
-            density = (1.0 - dx**2) * 0.75
-            
-            # V-neck / Collar cutout
-            if y < 240 and abs(x - cx) < (y - 195) * 0.6:
-                density *= 0.15
-            
-            if random.random() < density:
-                dots.append((x, y))
-
-    # Background ambient tech particles
-    for _ in range(800):
-        rx = random.randint(10, target_w - 10)
-        ry = random.randint(10, target_h - 10)
-        if random.random() < 0.12:
-            dots.append((rx, ry))
+    # Downsample if too dense to keep SVG responsive (~14,000 - 18,000 dots)
+    if len(dots) > 18000:
+        random.seed(42)
+        dots = random.sample(dots, 18000)
 
     return dots
 
 def build_svg(theme_name, dots, info_rows):
     t = THEMES[theme_name]
     
-    # Group dots into staggered animation groups
+    # Interleaved random groups for shimmering fade-in
     random.seed(101)
     random.shuffle(dots)
-    num_groups = 50
+    num_groups = 60
     chunk_size = math.ceil(len(dots) / num_groups)
     dot_groups = [dots[i*chunk_size:(i+1)*chunk_size] for i in range(num_groups)]
 
@@ -206,14 +167,14 @@ def build_svg(theme_name, dots, info_rows):
     # Render SMIL staggered fade-in groups
     start_delay = 0.20
     for idx, grp in enumerate(dot_groups):
-        begin_t = start_delay + (idx * 0.05)
+        begin_t = start_delay + (idx * 0.045)
         path_data = []
         for x, y in grp:
             path_data.append(f"M{x} {y}h1v1h-1z")
         d_str = "".join(path_data)
         a(f'<g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.9s" begin="{begin_t:.2f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/><path d="{d_str}"/></g>')
     
-    a('</g>') # end portrait group
+    a('</g>')
 
     # RIGHT PANEL — SYSTEM.INFO
     a(f'<text x="470" y="74" font-size="11" letter-spacing="3" fill="{t["CYAN"]}">SYSTEM.INFO</text>')
@@ -236,7 +197,6 @@ def build_svg(theme_name, dots, info_rows):
         else:
             label = item["label"]
             val = item["value"]
-            # Dots length calculation
             dots_str = "." * 60
             a(f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{begin_t:.2f}s" fill="freeze"/>')
             a(f'<animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="{begin_t:.2f}s" fill="freeze"/>')
@@ -248,7 +208,7 @@ def build_svg(theme_name, dots, info_rows):
     a(f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{begin_t+0.2:.2f}s" fill="freeze"/>')
     a(f'<text x="470" y="{row_y+10}" font-size="14" fill="{t["MUTED"]}">&#9656; More about me &amp; projects below in README &#8595; <tspan fill="{t["CYAN"]}">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text></g>')
 
-    a('</g>') # end clip-path
+    a('</g>')
 
     # Animated Gradient Border Accent
     a(f'<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.55" filter="url(#glow8)"/>')
@@ -258,17 +218,8 @@ def build_svg(theme_name, dots, info_rows):
     return "\n".join(svg)
 
 def main():
-    img_path = sys.argv[1] if len(sys.argv) > 1 else None
+    img_path = sys.argv[1] if len(sys.argv) > 1 else "/Users/pandu/Desktop/github/WhatsApp Image 2026-03-15 at 22.17.11.jpeg"
     
-    dots = None
-    if img_path and os.path.exists(img_path):
-        print(f"Processing photo from {img_path}...")
-        dots = generate_dots_from_image(img_path)
-    
-    if not dots:
-        print("Generating procedural developer particle matrix...")
-        dots = generate_procedural_portrait()
-
     info_rows = [
         {"type": "data", "label": "Subject", "value": "Pandurang Savale"},
         {"type": "data", "label": "Role", "value": "Data Scientist & ML Engineer"},
@@ -291,15 +242,17 @@ def main():
 
     out_dir = "/Users/pandu/Desktop/github/Savale-pandurang"
     
-    dark_svg = build_svg("dark", dots, info_rows)
+    dark_dots = process_photo(img_path, mode="dark")
+    dark_svg = build_svg("dark", dark_dots, info_rows)
     with open(os.path.join(out_dir, "dark.svg"), "w") as f:
         f.write(dark_svg)
-    print(f"Generated dark.svg ({len(dark_svg)//1024} KB)")
+    print(f"Generated dark.svg with {len(dark_dots)} photo dots ({len(dark_svg)//1024} KB)")
 
-    light_svg = build_svg("light", dots, info_rows)
+    light_dots = process_photo(img_path, mode="light")
+    light_svg = build_svg("light", light_dots, info_rows)
     with open(os.path.join(out_dir, "light.svg"), "w") as f:
         f.write(light_svg)
-    print(f"Generated light.svg ({len(light_svg)//1024} KB)")
+    print(f"Generated light.svg with {len(light_dots)} photo dots ({len(light_svg)//1024} KB)")
 
 if __name__ == "__main__":
     main()
