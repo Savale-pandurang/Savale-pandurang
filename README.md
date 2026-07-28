@@ -1,14 +1,13 @@
 <!-- ===== THEME-AWARE HERO BANNER ===== -->
 <!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
 
-<!-- Uncomment this block AFTER you generate and upload dark.svg + light.svg -->
-<!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/main/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/main/light.svg">
   <img alt="Pandurang Savale" src="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/main/light.svg">
 </picture>
--->
+
+<br/>
 
 <div align="center">
 
