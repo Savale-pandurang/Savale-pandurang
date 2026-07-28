@@ -1,7 +1,9 @@
 <div align="center">
 
+<!-- ══════════════════════ ANIMATED HEADER ══════════════════════ -->
+
 <!-- Dynamic Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Hi+%F0%9F%91%8B+I'm+Pandurang+Savale;Data+Science+%7C+Machine+Learning+%7C+Computer+Vision" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Hi+%F0%9F%91%8B+I'm+Pandurang+Savale;Data+Science+%7C+Machine+Learning+%7C+Computer+Vision" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -9,14 +11,27 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pandurang-s-73596329a/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Savale-pandurang)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pandusavale04@gmail.com)
-[![Phone](https://img.shields.io/badge/📞_+91_9611573977-25D366?style=for-the-badge)](tel:+919611573977)
+<!-- ══════════════════════ SOCIAL BADGES ══════════════════════ -->
+
+<a href="https://www.linkedin.com/in/pandurang-s-73596329a/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Savale-pandurang">
+<img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0A101F" alt="GitHub" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:pandusavale04@gmail.com">
+<img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+</a>
+&nbsp;&nbsp;
+<a href="tel:+919611573977">
+<img src="https://img.shields.io/badge/📞_+91_9611573977-0A101F?style=for-the-badge&labelColor=0A101F" alt="Phone" />
+</a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Savale-pandurang&color=3B82F6&style=flat-square&label=Profile+Views" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=Savale-pandurang&color=22D3EE&style=flat-square&label=Profile+Views" alt="Profile Views" />
 
 </div>
 
@@ -213,24 +228,37 @@ AI-powered **medical connectivity platform** bridging healthcare providers with 
 
 <div align="center">
 
-<a href="https://github.com/Savale-pandurang">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Savale-pandurang&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF" alt="GitHub Stats" />
-</a>
-&nbsp;
-<a href="https://github.com/Savale-pandurang">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Savale-pandurang&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-</a>
+<!-- Streak Stats — Full Width -->
+<img width="100%" src="https://streak-stats.demolab.com/?user=Savale-pandurang&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub Streak" />
+
+<br/>
+
+<!-- Stats & Top Languages — Side by Side -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Savale-pandurang&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Savale-pandurang&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="Top Languages" />
 
 <br/><br/>
 
-<a href="https://github.com/Savale-pandurang">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Savale-pandurang&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" alt="GitHub Streak" />
-</a>
+<!-- Contribution Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Savale-pandurang&theme=react-dark&hide_border=true&bg_color=0A101F&color=22D3EE&line=A78BFA&point=10B981&area_color=A78BFA&area=true" alt="Contribution Graph" width="100%"/>
 
-<br/><br/>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Savale-pandurang&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FFFFFF" alt="Contribution Graph" width="95%"/>
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════ -->
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/output/github-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/output/github-snake.svg" />
+<img alt="Snake eating my contributions"
+src="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/output/github-snake.svg" />
+</picture>
 </div>
 
 <br/>
@@ -249,7 +277,12 @@ AI-powered **medical connectivity platform** bridging healthcare providers with 
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pandurang-s-73596329a/)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pandusavale04@gmail.com)
+<a href="https://www.linkedin.com/in/pandurang-s-73596329a/">
+<img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:pandusavale04@gmail.com">
+<img src="https://img.shields.io/badge/Send_an_Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
+</a>
 
 </div>
