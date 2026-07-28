@@ -195,8 +195,8 @@ def build_svg(theme_name, dots, info_rows):
             row_y += 23
             begin_t += 0.12
         else:
-            label = item["label"]
-            val = item["value"]
+            label = item["label"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            val = str(item["value"]).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             dots_str = "." * 60
             a(f'<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="{begin_t:.2f}s" fill="freeze"/>')
             a(f'<animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="{begin_t:.2f}s" fill="freeze"/>')
@@ -218,7 +218,7 @@ def build_svg(theme_name, dots, info_rows):
     return "\n".join(svg)
 
 def main():
-    img_path = sys.argv[1] if len(sys.argv) > 1 else "/Users/pandu/Desktop/github/WhatsApp Image 2026-03-15 at 22.17.11.jpeg"
+    img_path = sys.argv[1] if len(sys.argv) > 1 else "/Users/pandu/Desktop/github/WhatsApp Image 2026-07-28 at 22.51.07.jpeg"
     
     info_rows = [
         {"type": "data", "label": "Subject", "value": "Pandurang Savale"},
