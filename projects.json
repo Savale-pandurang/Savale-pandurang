@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Automatic Data Preprocessing Pipeline",
+    "repo": "Savale-pandurang/Automatic-Data-Preprocessing-Pipeline",
+    "description": "Automated pipeline for data cleaning, missing values, encoding & scaling",
+    "tags": ["Python", "Pandas", "Scikit-learn"]
+  },
+  {
+    "name": "Personalized AI Assistant",
+    "repo": "Savale-pandurang/Personalized-AI-Assistant-using-LLM",
+    "description": "Conversational AI assistant using LLMs with voice I/O and task automation",
+    "tags": ["Python", "LLM", "NLP"]
+  },
+  {
+    "name": "Fashion Recommendation",
+    "repo": "Savale-pandurang/fashion-recommendation",
+    "description": "ML recommendation system extracting visual features from 44K+ fashion products",
+    "tags": ["Python", "TensorFlow", "NumPy"]
+  },
+  {
+    "name": "MediConnect AI",
+    "repo": "Savale-pandurang/mediconnect-ai",
+    "description": "AI-powered medical connectivity platform for intelligent diagnostics",
+    "tags": ["TypeScript", "AI/ML", "Healthcare"]
+  },
+  {
+    "name": "Computer Vision",
+    "repo": "Savale-pandurang/Computer_Vision",
+    "description": "Computer Vision projects and experiments with OpenCV",
+    "tags": ["Python", "OpenCV", "DL"]
+  },
+  {
+    "name": "Live Facial Recognition",
+    "repo": "Savale-pandurang/Live-Facial-Recognition-System",
+    "description": "Real-time facial recognition system using deep learning",
+    "tags": ["Python", "Deep Learning"]
+  }
+]
