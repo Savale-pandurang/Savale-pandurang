@@ -1,3 +1,14 @@
+<!-- ===== THEME-AWARE HERO BANNER ===== -->
+<!-- GitHub automatically shows dark.svg in dark mode and light.svg in light mode -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/main/light.svg">
+  <img alt="Pandurang Savale" src="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/main/light.svg">
+</picture>
+
+<br/>
+
 <div align="center">
 
 <!-- Dynamic Typing SVG -->
@@ -239,11 +250,7 @@ AI-powered **medical connectivity platform** bridging healthcare providers with 
 </div>
 
 <!-- ===== END SNAKE ===== -->
-<br/>
-<br/>
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/Savale-pandurang/Savale-pandurang/projects/projects.svg" alt="Projects" />
-</div>
+
 
 <!-- ===== SOCIAL BADGES ===== -->
 <br/>
